@@ -1,5 +1,10 @@
 def square_array(array)
-return  array.each do |x|
-    x ** 2
+
+arr2 = []
+
+array.each do |x|
+    arr2 << x** 2
   end
+
+  return arr2;
 end
